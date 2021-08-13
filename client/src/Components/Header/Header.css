@@ -1,0 +1,160 @@
+.title {
+  width: 100%;
+  height: 100px;
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title > h2 {
+  text-align: center;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 24px;
+  color: #000000;
+}
+.navbar a {
+  color: white;
+}
+.navbar {
+  background-color: #000000;
+}
+.navbar-nav {
+  height: auto;
+}
+.nav-item {
+  margin-left: 50px;
+  line-height: 50px;
+}
+.headerBg {
+  width: 100%;
+  height: 700px;
+  background-image: url("../../Images/Header_BG.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.headerBg > div {
+  width: 50%;
+}
+
+.headerBg > div > h1 {
+  font-size: 36px;
+  line-height: 50px;
+  color: #000000;
+}
+
+.headerBg > div > p {
+  font-size: 18px;
+  color: #000000;
+  line-height: 30px;
+  width: 550px;
+  margin-top: 20px;
+}
+
+.headerBg > div > button {
+  width: 150px;
+  height: 49px;
+  border: none;
+  border-radius: 4px;
+  background-color: #ed1c24;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+@media (max-width: 1150px) {
+  .headerBg {
+    width: 100%;
+    height: 500px;
+    background-image: url("../../Images/Header_BG.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .headerBg > div {
+    width: 50%;
+  }
+
+  .headerBg > div > h1 {
+    font-size: 36px;
+    line-height: 50px;
+    color: #000000;
+  }
+
+  .headerBg > div > p {
+    font-size: 18px;
+    color: #000000;
+    line-height: 30px;
+    width: auto;
+    margin-top: 20px;
+  }
+
+  .headerBg > div > button {
+    width: 150px;
+    height: 49px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ed1c24;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+}
+@media (max-width: 600px) {
+  .headerBg {
+    width: 100%;
+    height: auto;
+    background-image: url("../../Images/Header_BG.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 20px;
+  }
+  .headerBg > div {
+    width: 90%;
+    /* margin-bottom: 100px; */
+  }
+
+  .headerBg > div > h1 {
+    font-size: 30px;
+    line-height: 50px;
+    color: #000000;
+    text-align: center;
+  }
+
+  .headerBg > div > p {
+    font-size: 14px;
+    color: #fffdfd;
+    line-height: 20px;
+    font-weight: 500;
+    width: auto;
+    margin-top: 20px;
+  }
+
+  .headerBg > div > button {
+    width: 150px;
+    height: 49px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ed1c24;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    margin: 0 auto;
+    cursor: pointer;
+  }
+}

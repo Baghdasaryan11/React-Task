@@ -1,0 +1,14 @@
+main {
+  width: 80%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+}
+main > div {
+  width: 74%;
+}
+main > aside {
+  width: 24%;
+
+  margin-top: 70px;
+}

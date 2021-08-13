@@ -1,0 +1,2 @@
+1)start api project for sending request from react app, go to api directory and open readme.txt file
+2)in the client folder you can find 2 .psd files, please make react app in the client folder using .psd files
